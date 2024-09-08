@@ -19,6 +19,10 @@ test = false
 bench = false
 path = "src/main.rs"
 
+[lib]
+name = "code2prompt"
+path = "src/lib.rs"
+
 [dependencies]
 clap = { version = "4.0", features = ["derive"] }
 handlebars = "4.3"
